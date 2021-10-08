@@ -21,19 +21,23 @@ div.topHeader {
     margin:auto;
 }
 
+/* All internal links are active */
 a[href^="#"]:active {
     color: pink;
     
 }
 
+/*Links have hover */
 a:hover {
     color:green;
 }
 
+/* headers have special font*/
 h1,h2,h3 {
     font-family:fantasy;
 }
 
+/* compound selectors below: */
 ul li {
     list-style-type: square;
     color: orangered;
@@ -50,10 +54,12 @@ div ~ p {
     color:brown;
 }
 
+/* end of compound selectors */ 
 p.red-text {
     color: red;
 }
 
+/* Display properties below: */
 p.d1 {
     display: block;
 }
@@ -61,7 +67,10 @@ p.d1 {
 p.d2 {
     display: inline-block;
 }
+/* End of display properties */
 
+
+/*Main section styling */
 section.main_min {
     height: auto;
     width: auto;
@@ -112,9 +121,9 @@ li.formatting {
     grid-row-end: 3;
     grid-column-end: 5;
 }
-
-@media only screen and (max-width: 500px) {
+/* Media query to make page a different colour when small */
+@media only screen and (max-height: 500px) {
     body {
-        background-color: pink;
+        background-color: red;
     }
 }
