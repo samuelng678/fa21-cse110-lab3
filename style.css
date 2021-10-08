@@ -52,3 +52,10 @@ p.red-text {
     color: red;
 }
 
+p.d1 {
+    display: block;
+}
+
+p.d2 {
+    display: inline-block;
+}
