@@ -20,8 +20,9 @@ div.topHeader {
     border-radius: 70%;
 }
 
-a[href^="#"] {
-    background-color: rgb(111, 222, 235);
+a[href^="#"]:active {
+    color: pink;
+    
 }
 
 a:hover {
@@ -58,4 +59,18 @@ p.d1 {
 
 p.d2 {
     display: inline-block;
+}
+
+section.main_min {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    min-width: none;
+    position:relative;
+    left: 50px;
+}
+
+li.formatting {
+    position: absolute;
+    left: 300px;
 }
