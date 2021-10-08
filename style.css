@@ -1,0 +1,31 @@
+
+/* Main header */
+h1 {
+    color:blueviolet;
+}
+
+/* Default Text */
+*[lang^=en] {
+    color: #b543b5;
+    text-decoration: underline purple;
+}
+
+/* Top Header */
+div.topHeader {
+    text-align: center;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 70%;
+}
+
+a[href^="#"] {
+    background-color: rgb(111, 222, 235);
+}
+
+a:hover {
+    color:green;
+}
+
+h1,h2,h3 {
+    font-family:fantasy;
+}
