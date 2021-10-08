@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-   <!-- Import Font-->
+    <!-- Import Font-->
 
     <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
-     <!--Import Style Sheet-->
+    <!--Import Style Sheet-->
     <link rel="stylesheet" href="style.css">
 
 
@@ -28,25 +28,26 @@
             <a href="#survey">Survey Form</a>
         </nav>
     </div>
-    <main>
-        <section>
-            <h2 id="agenda">
-                Agenda:
-            </h2>
-            <ul>
-                <li>Discuss formatting of page</li>
-                <li>Discuss HTML Tags we will implement</li>
-                <li>Unfinished Business from last meeting</li>
-                <li>New Business</li>
-                <li>Questions, Concerns</li>
-                <li>Images and video recording from meeting</li>
-            </ul>
-        </section>
+    <main class="gridContainer">
+
+        <h2 class = "gridItem" id="agenda">
+            Agenda:
+        </h2>
+        <ul class="gridItem">
+            <li>Discuss formatting of page</li>
+            <li>Discuss HTML Tags we will implement</li>
+            <li>Unfinished Business from last meeting</li>
+            <li>New Business</li>
+            <li>Questions, Concerns</li>
+            <li>Images and video recording from meeting</li>
+        </ul>
+
         <section class="main_min">
             <h2 id="minutes">Main Minutes:</h2>
             <hr>
             <ol>
-                <li class="formatting">(Formatting) Joe proposed that we make use of the canvas write up as a guideline for the project
+                <li class="formatting">(Formatting) Joe proposed that we make use of the canvas write up as a guideline
+                    for the project
                 </li>
                 <li>(HTML Tags) Decided we would like to use the <span>span</span> tag <em>somewhere</em> in the html
                     file</li>
@@ -60,7 +61,7 @@
             <img src="Images/HTML11.png" alt="HTMLIMG">
             <img src="Images/unnamed.jpeg" alt="HELLOWORLD">
             <p>Audio</p>
-            <audio controls>
+            <audio controls class="audioContainer">
                 <source src="Images/CV2.mp3" type="audio/mpeg">
             </audio>
             <p>Video</p>
@@ -73,9 +74,9 @@
     </main>
 
     <div class="container">
-        <h3 class = "item" id="survey">Employee Survey:</h3>
+        <h3 class="item" id="survey">Employee Survey:</h3>
 
-        <form class= "item">
+        <form class="item">
             <fieldset>
                 <p class="red-text">
                     What's your <b>favourite</b> language?
@@ -123,16 +124,17 @@
                 <input type="submit" class="button" value="Submit">
             </div>
         </form>
-    </section>
+        </section>
 
-    <details>
-        <summary>About The Author</summary>
-        <p class="d2">
-            I love CSE110 <p class="d1">and would love a good</p> grade on lab 2 of cse110
-        </p>
-    </details>
-    <footer>Thanks for checking out the page!</footer>
-    <img src="Images/download.png" alt="SMILEY_FACE">
+        <details>
+            <summary>About The Author</summary>
+            <p class="d2">
+                I love CSE110
+            <p class="d1">and would love a good</p> grade on lab 2 of cse110
+            </p>
+        </details>
+        <footer>Thanks for checking out the page!</footer>
+        <img src="Images/download.png" alt="SMILEY_FACE">
 </body>
 
 </html>
