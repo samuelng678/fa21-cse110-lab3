@@ -4,9 +4,11 @@ h1 {
     color:blueviolet;
 }
 
+
 /* Default Text */
 *[lang^=en] {
     color: #b543b5;
+    font-family: 'Akronim', cursive;
     text-decoration: underline purple;
 }
 
@@ -29,3 +31,24 @@ a:hover {
 h1,h2,h3 {
     font-family:fantasy;
 }
+
+ul li {
+    list-style-type: square;
+    color: orangered;
+}
+section > h2 {
+    color: hsla(120, 200%, 90%, 1.0);
+}
+
+li + li {
+    color:rgb(121, 121, 27);
+}
+
+div ~ p {
+    color:brown;
+}
+
+p.red-text {
+    color: red;
+}
+
